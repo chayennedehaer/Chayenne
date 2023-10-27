@@ -1,0 +1,58 @@
+body {
+	padding-top: 50px;
+	color: #959595;
+	}
+	
+h1, h2, h3, h4, h5, h6 {
+	color: rgb(0, 0, 0);
+	}
+
+	.row p:first-letter{
+		font-weight:bold;
+		font-size: 2.4em; 
+		color:rgb(224,7,7)
+	}
+	
+.feature {
+	background: rgb(47, 138, 212) linear-gradient(to bottom, rgb(106, 138, 179), rgb(37, 76, 182));
+	color: rgb(2, 35, 145);
+	}
+
+#feature-carousel {
+	min-height: 250px;
+	text-align: center;
+	}
+	
+.article-intro {
+    margin-bottom: 25px;
+}
+
+
+.footer-blurb {
+	background-image: url(hg.jpg);
+    background-repeat: repeat-x;
+
+}
+    
+.footer-blurb-item {
+    padding: 30px;
+    }
+ 
+.small-print {
+	background-color: #eee;
+	padding: 30px 0;
+}
+.article-intro:first-letter    {
+    font-weight:bold;
+    font-size: 2.8em;
+    float:left;
+    padding-right:10px;
+}
+.feature,
+.page-intro,
+.article-intro,
+.footer-blurb,
+.small-print {
+	text-align: left;
+	
+	}
